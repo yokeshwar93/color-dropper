@@ -1,0 +1,23 @@
+.cursor {
+    border: 10px solid black;
+    border-radius: 200px;
+    pointer-events: none;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+  }
+  .crosshair {
+    cursor: crosshair
+  }
+  .zoom-canvas {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+  }
+  .color-cursor {
+    background-color: white;
+    font-size: 0.5 em;
+    font-weight: bold;
+    display: inline;
+    margin-left: 60px;
+  }
