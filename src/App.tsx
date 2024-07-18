@@ -16,7 +16,7 @@ function App() {
         <div className='selected-color-div'>
           <span className='selected-color-text'>{selectedColor}</span>
         </div>
-        <div className={`${isDropperSelected ? 'dropper' : ''}`}>
+        <div>
           <Canvas image={image} 
                   setSelectedColor={setSelectedColor}
                   isDropperSelected={isDropperSelected}

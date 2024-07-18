@@ -29,7 +29,7 @@ const Canvas = ({image, setSelectedColor, isDropperSelected, setIsDropperSelecte
     useEffect(() => {
         const currentRef = canvasRef.current
         if(currentRef) {
-            const context = canvasRef.current.getContext('2d', { willReadFrequently: true });
+            const context = currentRef.getContext('2d', { willReadFrequently: true });
             setCanvasContext(context);
             currentRef.addEventListener('mousemove', canvasOnMouseHandler);
             currentRef.addEventListener('mouseenter', canvasMouseEnterHandler);
